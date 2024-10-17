@@ -40,11 +40,11 @@ public class CardImport {
             String[] skillsData = skillstr.split(",");
             for (String skillData : skillsData) {
                 String[] data = skillData.split("/");
-                String cost = data[0];
+                String cost = data[0].trim();
                 String skillname = data[1];
                 int damage = Integer.parseInt(data[2]);
 
-                skill.add(new AttackSkill(skillname, cost, "", damage));
+                skill.add(new AttackSkill(skillname, "", cost, damage));
             }
             //7
             EnergyType weakness = EnergyType.valueOf(br.readLine().split("\\.")[1].trim().toUpperCase());

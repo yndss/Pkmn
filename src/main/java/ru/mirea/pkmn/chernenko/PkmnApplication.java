@@ -12,7 +12,6 @@ public class PkmnApplication {
 
         //CardExport cardExport = new CardExport();
         //cardExport.savecard(my);
-        //CardExport cardExport = new CardExport.savecard(my);
 
         CardImport reccard = new CardImport("Pyroar");
         Card des = reccard.deserialize();
