@@ -7,6 +7,7 @@ import ru.mirea.pkmn.chernenko.web.jdbc.DatabaseServiceImpl;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 public class PkmnApplication {
@@ -58,7 +59,7 @@ public class PkmnApplication {
         //dsi.createPokemonOwner(my.getPokemonOwner());
         //Student me = dsi.getStudentFromDatabase();
 
-        dsi.saveCardToDatabase(my);
+        //dsi.saveCardToDatabase(my);
         Card card2 = dsi.getCardFromDatabase("Manaphy");
         System.out.println(card2);
     }

@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519dceab-c7bb-4f21-bcbf-70fa25f38781" name="Changes" comment="card import and export">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/http/PkmnHttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/http/PokemonTcgAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/jdbc/DatabaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/jdbc/DatabaseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+    <list default="true" id="519dceab-c7bb-4f21-bcbf-70fa25f38781" name="Changes" comment="db connection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/CardImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/CardImport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/PkmnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/PkmnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Pyroar.crd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Pyroar.crd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my_card.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my_card.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +38,9 @@
     &quot;accountId&quot;: &quot;57b5af2a-687f-48d8-a7a5-0a61ad5ef587&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -85,12 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1729021637232</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="db connection">
+      <option name="closed" value="true" />
+      <created>1730401111491</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730401111491</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="card import and export" />
-    <option name="LAST_COMMIT_MESSAGE" value="card import and export" />
+    <MESSAGE value="db connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="db connection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

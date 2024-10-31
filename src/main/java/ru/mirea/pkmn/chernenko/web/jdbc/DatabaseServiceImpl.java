@@ -39,7 +39,7 @@ public class DatabaseServiceImpl implements DatabaseService {
 
     @Override
     public Card getCardFromDatabase(String cardName) throws SQLException {
-        String request = "SELECT * FROM card WHERE name = ?";
+        String request = "SELECT * FROM card WHERE \"name\" = ?";
         PreparedStatement ps = connection.prepareStatement(request);
         ps.setString(1, cardName);
         ResultSet rs = ps.executeQuery();
@@ -51,7 +51,7 @@ public class DatabaseServiceImpl implements DatabaseService {
     }
 
     public Card getCardFromDatabaseByUUID(UUID cardUUID) throws SQLException {
-        String request = "SELECT * FROM card WHERE id = ?";
+        String request = "SELECT * FROM card WHERE \"id\" = ?";
         PreparedStatement ps = connection.prepareStatement(request);
         ps.setObject(1, cardUUID);
         ResultSet rs = ps.executeQuery();
