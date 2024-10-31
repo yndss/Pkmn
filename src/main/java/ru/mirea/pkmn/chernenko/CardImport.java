@@ -65,11 +65,20 @@ public class CardImport {
             String ststr = br.readLine();
             Student own = null;
             if (ststr != null) {
-                ststr.split("\\.")[1].trim();
-                String[] stud = ststr.split("/");
-                own = new Student(stud[1], stud[0], stud[2], stud[3]);
+                // Убираем номер из строки и разбиваем на части
+                String[] parts = ststr.split("\\.")[1].trim().split("/"); // убираем номер и разделяем на /
+                if (parts.length == 4) { // Проверка на количество частей
+                    String familyName = parts[0].trim(); // Фамилия
+                    String firstName = parts[1].trim();  // Имя
+                    String patronymicName = parts[2].trim(); // Отчество
+                    String group = parts[3].trim(); // Группа
+                    own = new Student(firstName, familyName, patronymicName, group);
+                }
             }
-            return new Card(stage, name, hp, pokemontype, evolfrm, skill, weakness, resistance, tetreat, games, regulm, own);
+            //13
+            String num = br.readLine().split("\\.")[1].trim();
+
+            return new Card(stage, name, hp, pokemontype, evolfrm, skill, weakness, resistance, tetreat, games, regulm, own, num);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

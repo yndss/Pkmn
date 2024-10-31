@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="519dceab-c7bb-4f21-bcbf-70fa25f38781" name="Changes" comment="card import and export">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/http/PkmnHttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/http/PokemonTcgAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/jdbc/DatabaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/web/jdbc/DatabaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/CardImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/CardImport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/PkmnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/mirea/pkmn/chernenko/PkmnApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Manaphy.crd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Pyroar.crd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Pyroar.crd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Pyroar.crd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my_card.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my_card.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,16 +57,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.PkmnApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Pkmn&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/Pkmn1/src/main/java/ru/mirea/chernenko/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.PkmnApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Pkmn",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/Pkmn1/src/main/java/ru/mirea/chernenko/Main.java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
